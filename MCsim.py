@@ -34,7 +34,7 @@ meanM = meanM.T
 
 portfolio_sims = np.full(shape=(T, mc_sims), fill_value=0.0)
 
-initialPortfolio = 2000
+initialPortfolio = 10000
 
 for m in range(0, mc_sims):
     Z = np.random.normal(size=(T, len(weights)))#uncorrelated RV's
